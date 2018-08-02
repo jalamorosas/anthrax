@@ -1,3 +1,12 @@
+@media only screen and (max-device-width: 1024px) {
+  .img-1, .img-2, .img-3 {
+      background-attachment: scroll;  
+  }
+  .caption span.border {
+    font-size: 2em;
+
+  }
+}
 
 body, html {
   height: 100%;
@@ -38,7 +47,7 @@ nav a {
   font-size: 1.2em;
   text-decoration: none;
   left: 10px;
-  color: rgb(71, 71, 71);
+  color:rgb(58, 58, 58);
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -95,7 +104,7 @@ body > header {
   background-color: rgba(17, 17, 17, 0);
   color: #fff;
   padding: 18px;
-  font-size: 7em;
+  font-size: 8em;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 7px;
   text-shadow: 2px 2px #00000062;
@@ -146,11 +155,8 @@ h3 {
   position: relative;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-@media only screen and (max-device-width: 1024px) {
-  .img-1, .img-2, .img-3 {
-      background-attachment: scroll;
-  }
-}
+
+
 div.hidden {
   display: none
 }
@@ -224,4 +230,8 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+iframe {
+  align-content: center;
 }

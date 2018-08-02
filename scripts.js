@@ -9,11 +9,11 @@ $(document).ready(function(){
 
     /*! Fades in page on load */
     $('body').css('display', 'none');
-    $('body').fadeIn(1000);
+    $('body').fadeIn(500);
     $('span').css('display', 'none');
-    $('span').fadeIn(2000);
+    $('span').fadeIn(1000);
     $('a').css('display', 'none');
-    $('a').fadeIn(2000);
+    $('a').fadeIn(1000);
 
     });
 
@@ -21,4 +21,4 @@ $(document).ready(function(){
 window.sr = ScrollReveal({ reset: true });
 
 // Customizing a reveal set
-sr.reveal('.reveal', { duration: 500, delay: 2,});
+sr.reveal('.reveal', { duration: 600, delay: 2,});
