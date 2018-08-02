@@ -3,7 +3,7 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 1em/1.8 "Lato", sans-serif;
-  color: #777;
+  color: rgb(185, 182, 182);
 }
 nav {
   position: fixed;
@@ -53,7 +53,7 @@ nav a:hover {
 body > header {
   margin-top: 4.7em;
 }
-.img-1, .img-2, .img-3 {
+.img-1, .img-2, .img-3, .img-4 {
   z-index: -1;
   position: relative;
   opacity: 0.65;
@@ -69,12 +69,17 @@ body > header {
 }
 
 .img-2 {
-  background-image: url("Shipping-Blog.jpg");
+  background-image: url("p043lxcj.jpg");
   min-height: 400px;
 }
 
 .img-3 {
   background-image: url("1357922b6712244.jpg");
+  min-height: 400px;
+}
+
+.img-4 {
+  background-image: url("03Jun13_Anderson_killer-presentation.png");
   min-height: 400px;
 }
 .caption {
@@ -181,3 +186,13 @@ p {
   text-align: center;
 }
 
+.centerbutton {
+  align-content: center;
+}
+
+.linky {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
