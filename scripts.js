@@ -11,7 +11,9 @@ $(document).ready(function(){
     $('body').css('display', 'none');
     $('body').fadeIn(1000);
     $('span').css('display', 'none');
-    $('span').fadeIn(3000);
+    $('span').fadeIn(2000);
+    $('a').css('display', 'none');
+    $('a').fadeIn(2000);
 
     });
 
@@ -37,3 +39,9 @@ $(document).on("scroll", function () {
         }
 }
 })
+
+// Changing the defaults
+window.sr = ScrollReveal({ reset: true });
+
+// Customizing a reveal set
+sr.reveal('.reveal', { duration: 450, delay: 2,});

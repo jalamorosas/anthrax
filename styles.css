@@ -2,7 +2,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 1em/1.8 "Lato", sans-serif;
   color: #777;
 }
 nav {
@@ -10,11 +10,11 @@ nav {
   z-index: 100;
   top: 0;
   left: 0;
-  height: 3em;
+  height: 3.5em;
   width: 100%;
-  background-color: rgb(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
-  padding: 12px 20px;
+  padding: 12px 20px;;
   transition: background-color 1s ease-out;
   transition: box-shadow 0.5s ease-out;
   
@@ -35,6 +35,7 @@ nav.scroll {
 }
 
 nav a {
+  font-size: 1.2em;
   text-decoration: none;
   left: 10px;
   color: #777;
@@ -43,6 +44,9 @@ nav a {
   letter-spacing: 0.1em;
 }
 
+nav a:hover {
+  color: grey;
+}
 .space {
   padding: 20px
 }
@@ -60,23 +64,23 @@ body > header {
 
 }
 .img-1 {
-  background-image: url("pexels-photo.jpg");
+  background-image: url("18usnwipag74ljpg.jpg");
   min-height: 100%;
 }
 
 .img-2 {
-  background-image: url("pexels-photo-323311.jpeg");
+  background-image: url("Shipping-Blog.jpg");
   min-height: 400px;
 }
 
 .img-3 {
-  background-image: url("pexels-photo-640805.jpeg");
+  background-image: url("1357922b6712244.jpg");
   min-height: 400px;
 }
 .caption {
   position: absolute;
   left: 0;
-  top: 45%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -86,7 +90,7 @@ body > header {
   background-color: rgba(17, 17, 17, 0);
   color: #fff;
   padding: 18px;
-  font-size: 75px;
+  font-size: 7em;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 7px;
   text-shadow: 2px 2px #00000062;
@@ -95,7 +99,7 @@ body > header {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 1.75em"Lato", sans-serif;
   color: #111;
 }
 
@@ -106,6 +110,7 @@ h3 {
   color: #777;
   background-color: white;
   text-align: center;
+  font-size: 1.25em;
   padding: 50px 80px;
   text-align: justify;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -114,7 +119,7 @@ h3 {
 
 .text2 {
   background-color: transparent;
-  font-size: 25px;
+  font-size: 2.5em;
   color: #f7f7f7;
   background-color: rgba(17, 17, 17, 0);
   padding: 18px;
@@ -157,3 +162,22 @@ section.visible {
 
   transform: translate(0,0);
 }
+
+
+div.fadein {
+  opacity: 0;
+  
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+
+div.fadein.visible {
+  opacity: 1;
+
+  transform: translate(0,0);
+}
+
+p {
+  text-align: center;
+}
+
