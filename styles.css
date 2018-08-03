@@ -1,12 +1,4 @@
-@media only screen and (max-device-width: 1024px) {
-  .img-1, .img-2, .img-3 {
-      background-attachment: scroll;  
-  }
-  .caption span.border {
-    font-size: 2em;
 
-  }
-}
 
 body, html {
   height: 100%;
@@ -25,6 +17,7 @@ nav {
   box-sizing: border-box;
   padding: 12px 20px;;
   transition: background-color 1s ease-out;
+  transition: color 1s ease-out;
   transition: box-shadow 0.5s ease-out;
   
 }
@@ -328,4 +321,20 @@ iframe {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .img-1, .img-2, .img-3 {
+      background-attachment: scroll;  
+  }
+  .caption span.border {
+    font-size: 2em;
+  }
+  nav a {
+    font-size: .5em
+  }
+}
+
+.card {
+  color: #777;
 }
