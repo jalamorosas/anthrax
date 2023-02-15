@@ -3,4 +3,4 @@ This was my final project for my first year of SMASH academy. I was the main des
 making so far. It was because of this website that I won the excellence in STEM award at SMASH. The website contains an embed of our prezi presentation and a mock 
 shop where we would sell our prototype anthrax kits if we were a real company. I am so proud of our group for making such an amazing project.
 
-You can view the site [here](https://jvalamo.github.io/anthrax/)
+You can view the site [here](https://jalamorosas.github.io/anthrax/)
